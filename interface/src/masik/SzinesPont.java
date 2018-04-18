@@ -19,7 +19,7 @@ public final class SzinesPont extends Pont implements ISzinezheto {
 	}
 
 	@Override
-	public Color getAlapertelmezett() {
+	public Color getSzin() {
 		// TODO Auto-generated method stub
 		return this.alapertelmezett;
 	}
@@ -31,7 +31,7 @@ public final class SzinesPont extends Pont implements ISzinezheto {
 	}
 
 	@Override
-	public void setAlapertelmezett(Color szin) {
+	public void setSzin(Color szin) {
 		// TODO Auto-generated method stub
 		 this.szin = alapertelmezett;
 	}
